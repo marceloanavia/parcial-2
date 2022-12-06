@@ -89,3 +89,6 @@
 .imagen-lista{
     width: 4rem;
 }
+
+li{
+        margin-left: -1em;}

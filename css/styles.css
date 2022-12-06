@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&display=swap');
+
+*{
+    list-style: none;
+
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+
+}
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+
+
+.toggle-mostrar{
+    display: block;
+}
+
+
+#carrito-section{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+#carrito-section div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#carrito{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.abrir{
+    background-image: url('../img/carrito.png');
+}
+.cerrar{
+    background-image: url('../img/eliminar.png');
+}
+
+.none{
+    display: none;
+}
+
+/* PRODUCTO */
+
+.contenedor-producto{
+    margin:2rem 4rem;
+}
+
+.iconos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    font-size: 2rem;
+}
+
+.precio{
+    font-size: 2rem;
+}
+
+/* CARRITO */
+.carrito-lista{
+    margin: 1rem 4rem;
+}
+.eliminar-lista{
+    width: 65px;
+    height: 65px;
+}
+
+.imagen-lista{
+    width: 4rem;
+}
